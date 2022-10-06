@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "bola";
+    src: url("./fonts/Send_Flowers/SendFlowers-Regular.ttf");
+}
+@font-face{
+    font-family: "yozuv";
+    src: url("./fonts/Babylonica/Babylonica-Regular.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.title{
+    text-align: center;
+    margin-top: 50px;
+    font-family: sans-serif;
+    font-weight: 900;
+    color: transparent;
+    -webkit-text-stroke: 1px #000;
+}
+.iphone{
+    text-align: center;
+    margin-top: 20px;
+    font-family: sans-serif;
+    border: 1px dotted red;
+    background: -webkit-linear-gradient( blueviolet, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.font{
+    font-family: "bola";
+}
+.flower{
+    font-family: "yozuv";
+}
